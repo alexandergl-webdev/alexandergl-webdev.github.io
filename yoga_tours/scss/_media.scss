@@ -1,0 +1,602 @@
+@media (max-width: 1050px) {
+    .ayurvedic-center__img-box {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        height: 300px;
+        overflow: hidden;
+        max-width: 980px;
+
+        img {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    .ayurvedic-center__inner {
+        flex-direction: column;
+    }
+
+    .ayurvedic-center__text {
+        max-width: 100%;
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .ayurvedic-center__list {
+        justify-content: space-around;
+    }
+
+    .sequence__item {
+        flex-basis: calc(30%);
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header__box {
+        padding-top: 70px;
+    }
+
+    .header__box-info {
+        padding-bottom: 50px;
+    }
+
+    .header__box-btn {
+        margin-bottom: 50px;
+    }
+
+    .about__inner {
+        flex-wrap: wrap;
+    }
+
+    .about__box {
+        margin-left: 17px;
+    }
+
+    .footer__inner {
+        flex-wrap: wrap;
+
+        .footer__info {
+            min-width: 100%;
+            margin-left: 0;
+        }
+    }
+
+    .advantages__inner {
+        padding: 40px 0 0;
+    }
+
+    .timetable {
+        &__box {
+            flex-basis: calc(33.3333% - 20px);
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .instructors-slider {
+        &__info {
+            padding: 10px 10px 25px;
+            display: block;
+
+            &-text {
+                max-width: 100%;
+            }
+
+            &-text::before {
+                display: none;
+            }
+
+            &-instructors {
+                max-width: 100%;
+            }
+
+            &-name {
+                padding-bottom: 5px;
+            }
+
+            &-yogatype {
+                padding-bottom: 8px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .cost {
+        &__box-items {
+            padding: 0;
+        }
+
+        &__offer {
+            display: block;
+            text-align: center;
+        }
+
+        &__special {
+            display: block;
+            text-align: center;
+
+            &-text {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 855px) {
+    .about {
+        padding: 20px 0 0;
+    }
+
+    .about__box {
+        padding-top: 20px;
+        max-width: 100%;
+        display: block;
+    }
+
+    .about__box-title span {
+        padding: 8px 0 10px;
+    }
+
+    .about__box-text {
+        padding-bottom: 25px;
+    }
+
+    .about__box-title {
+        font-size: 22px;
+
+        span {
+            font-size: 32px;
+        }
+    }
+
+    .advantages__item {
+        flex-basis: calc(50%);
+    }
+
+    .expectations-slider,
+    .program-slider {
+        padding: 20px 0 0;
+    }
+
+    .main-title {
+        padding-bottom: 0;
+    }
+
+    .title-line {
+        margin-bottom: 0;
+    }
+
+    .instructors-slider__bg {
+        display: none;
+    }
+
+    .comment-slider {
+        margin-bottom: 25px;
+        padding-top: 15px;
+
+        &__item {
+            display: inline-block !important;
+
+            img {
+                margin: 0 auto;
+            }
+        }
+
+        &__member-info {
+            margin-top: 15px;
+        }
+    }
+
+}
+
+@media (max-width: 750px) {
+    .timetable {
+        &__inner {
+            margin-bottom: 20px;
+        }
+
+        &__box {
+            flex-basis: calc(50% - 20px);
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .header__box-title {
+        font-size: 40px;
+    }
+
+    .expectations-slider,
+    .program-slider {
+        margin-bottom: 40px;
+
+        &__item img {
+            height: 430px;
+        }
+
+        &__info-title {
+            font-size: 20px;
+        }
+
+        &__info-text {
+            font-size: 16px;
+        }
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .ayurveda-program {
+        &__title {
+            font-size: 22px;
+        }
+
+        &__box {
+            display: block;
+        }
+
+        &__box img {
+            margin-right: 0;
+        }
+
+        &__text {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+        }
+    }
+
+    .instructors-slider__info-name {
+        font-size: 20px;
+    }
+
+    .instructors-slider__info-yogatype {
+        font-size: 14px;
+    }
+
+    .choise {
+        padding: 35px 0 0;
+
+        &__inner-img {
+            margin-bottom: 5px;
+        }
+
+        &__inner-title {
+            padding-bottom: 5px;
+        }
+
+        &__inner-items {
+            margin-bottom: 25px;
+        }
+    }
+
+    .sequence__item {
+        flex-basis: calc(40%);
+    }
+
+    .sequence__inner {
+        justify-content: space-around;
+    }
+
+    .cost {
+        padding: 35px 0;
+    }
+
+    .contacts__inner {
+        display: block;
+    }
+    .contacts__socials-icons {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .advantages__item {
+        flex-basis: calc(100%);
+        padding-bottom: 25px;
+    }
+
+    .expectations-slider,
+    .program-slider {
+        &__item img {
+            height: 380px;
+        }
+    }
+
+    .ayurveda-description p {
+        font-size: 16px;
+    }
+
+    .ayurveda-program {
+        padding-bottom: 0px;
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .ayurvedic-center__title {
+        font-size: 24px;
+    }
+
+    .ayurvedic-center__bg {
+        margin-bottom: -275px;
+    }
+
+    .ayurvedic-center__list {
+        display: block;
+
+        .second {
+            padding-left: 0px;
+        }
+    }
+
+    .sequence {
+        padding-top: 40px;
+        margin-bottom: 40px;
+
+        &__subtitle {
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+    }
+
+    .cost {
+        padding: 30px 0;
+
+        &__box {
+            font-size: 16px;
+        }
+
+        &__offer {
+            line-height: 32px;
+        }
+    }
+
+    .cost__included-title,
+    .cost__excluded-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .cost__included p,
+    .cost__excluded p {
+        font-size: 14px;
+    }
+
+    .cost__calculated {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .timetable {
+        &__box {
+            flex-basis: calc(100% - 20px);
+            margin-left: 20px;
+
+            &-title {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .choise__inner-items {
+        max-width: 100%;
+    }
+
+    .sequence {
+        &__subtitle {
+            font-size: 14px;
+        }
+
+        &__item {
+            flex-basis: calc(100%);
+
+            &-icon::after {
+                display: none;
+            }
+
+            &-text {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .warranty__subtitle {
+        font-size: 20px;
+    }
+
+    .warranty li {
+        font-size: 16px;
+    }
+
+    .contacts-map__inner {
+        display: block;
+    }
+
+    .contacts__socials-title {
+        font-size: 20px;
+    }
+
+    .contacts__phone-number {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__box {
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .header__box-title {
+        font-size: 28px;
+    }
+
+    .header__box-text {
+        font-size: 14px;
+    }
+
+    .header__box-info {
+        font-size: 14px;
+    }
+
+    .header__box-btn {
+        font-size: 16px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .about__box {
+        margin-left: 0px;
+    }
+
+    .main-title {
+        font-size: 26px;
+    }
+
+    .ayurveda-program__title {
+        font-size: 18px;
+    }
+
+    .ayurveda-program__text {
+        font-size: 14px;
+    }
+
+    .instructors-slider__item {
+        img {
+            height: 300px;
+        }
+    }
+
+    .warranty {
+        padding: 30px 0;
+    }
+
+    .contacts {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .about__box-title {
+        font-size: 20px;
+
+        span {
+            font-size: 22px;
+            padding: 8px 0;
+        }
+    }
+
+    .about li {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .about__list li {
+        padding-bottom: 9px;
+    }
+
+    .expectations-slider,
+    .program-slider {
+        &__item img {
+            height: 300px;
+        }
+
+        &__info-title {
+            font-size: 16px;
+        }
+
+        &__info-text {
+            font-size: 14px;
+        }
+
+        .advantages__item-text {
+            font-size: 14px;
+        }
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .ayurveda-description p {
+        font-size: 14px;
+    }
+
+    .ayurvedic-center__title {
+        font-size: 18px;
+    }
+
+    .ayurvedic-center {
+        margin-bottom: 30px;
+    }
+
+    .instructors-slider__info-name {
+        font-size: 18px;
+    }
+
+    .instructors-slider__info-yogatype {
+        font-size: 12px;
+    }
+
+    .comment-slider__member-name {
+        font-size: 16px;
+    }
+
+    .choise__inner-title {
+        font-size: 16px;
+    }
+
+    .choise__inner-text {
+        font-size: 14px;
+    }
+
+    .cost {
+        padding: 20px 0;
+
+        &__box {
+            font-size: 16px;
+        }
+
+        &__offer {
+            line-height: 24px;
+        }
+    }
+
+    .warranty__subtitle {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .warranty p {
+        padding-bottom: 25px;
+    }
+
+    .contacts__socials-icons a + a {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 321px) {
+    .header__box-title {
+        font-size: 26px;
+    }
+
+    .header__box-info {
+        padding-bottom: 30px;
+    }
+}
