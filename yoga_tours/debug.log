@@ -81,3 +81,4 @@
 [0724/114155.249:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome Dev\User Data\Crashpad\reports\a34d93da-ef0c-4123-842d-947e449d6938.dmp: Не удается найти указанный файл. (0x2)
 [0724/114155.249:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\admin\AppData\Local\Google\Chrome Dev\User Data\Crashpad\reports\86501de9-ae80-4161-9642-9bd26e6a6eb4.dmp: Не удается найти указанный файл. (0x2)
 [0724/114155.249:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0824/174709.764:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
