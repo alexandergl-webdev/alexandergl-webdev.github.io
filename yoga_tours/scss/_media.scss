@@ -427,6 +427,10 @@
         display: block;
     }
 
+    .contacts-map__text {
+        margin-bottom: 15px;
+    }
+
     .contacts__socials-title {
         font-size: 20px;
     }
@@ -487,7 +491,7 @@
     }
 
     .contacts {
-        padding: 25px 0;
+        padding: 25px 0 10px;
     }
 }
 
