@@ -370,6 +370,7 @@
         border-radius: 50%;
         background-color: $hover;
         cursor: pointer;
+        outline: none;
     }
 
     .slick-dots li.slick-active button {
@@ -692,6 +693,7 @@
         padding: 0;
         border: none;
         cursor: pointer;
+        outline: none;
     }
 
     .slick-dots li.slick-active button {
@@ -800,6 +802,7 @@
         border-radius: 50%;
         background-color: #b4b4b4;
         cursor: pointer;
+        outline: none;
     }
 
     .slick-dots li.slick-active button {
